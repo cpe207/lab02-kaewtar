@@ -1,0 +1,30 @@
+h1 {
+  text-align: center;
+  color: darkslategray;
+  font-style: oblique;
+}
+
+h2 {
+  text-align: center;
+  color: darkslategray;
+  font-style: inherit;
+}
+
+h3 {
+  text-align: center;
+  color: darkslategray;
+  font-style: oblique;
+}
+
+.skill-header {
+  text-align: left;
+}
+
+.skill-container {
+  border: solid lightslategrey;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  margin-bottom: 8px;
+}
