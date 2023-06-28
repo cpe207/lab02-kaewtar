@@ -18,52 +18,95 @@
     ></script>
   </head>
 
-  <body class="p-2">
-    <div class="border rounded-4 p-2" style="max-width: 32rem "> 
-    <h1>My Portfolio</h1>
-
-    <div class="d-flex gap-2 align-items-center">
-      <img src="me1.jpg" width="200px" height="200px" class="rounded-circle" />
+  <body>
+    <div class="d-flex justify-content-center gap-5 fw-bold my-4">
+      <a href="index.html">Home</a>
+      <a href="Experience.html">Experience</a>
+      <a href="Gallery.html">Gallery</a>
+      <a href="Contact.html">Contact</a>
+    </div>
+    <div
+      class="d-flex justify-content-center align-items-center mx-auto gap-3"
+      style="max-width: 700px"
+    >
       <div>
-        <div><h2>Kaewtar Lungta</h2></div>
-        <div>
+        <img
+          src="me1.jpg"
+          class="rounded-circle"
+          width="200"
+          height="200"
+          style="object-fit: cover"
+        />
+      </div>
+
+      <div class="d-none d-sm-block">
+        <div class="display-5 mb-3">Kaewtar Lungta</div>
+        <div class="text-muted">
           Hi, I'm Kaewtar. I'm study at Chiang Mai University. I'm ordinary
-          person who love rose and rain. I also enjoy coding and I am interested
-          in Cyber Security.
+          person who love rose and rain. I also enjoy coding.
         </div>
       </div>
     </div>
-    <div class="my-3">I love 261207 so much. Please give me an A.</div>
-    <hr class="my-3" />
-    <div class="d-flex">
-      <div class="me-auto">👍 3,500</div>
-      <div>1,500 ความคิดเห็น</div>
-    </div>
+    <div class="display-5 d-sm-none text-center my-3">Kaewtar Lungta</div>
 
-    <div style="text-align: center; margin-bottom: 16px">
-      <a href="index.html"> Home </a>
-      &nbsp;|
-      <a href="Experience.html"> Experience </a>
-      &nbsp;|
-      <a href="contact.html"> Contact Me <br /></a>
-    </div>
+    <p class="text-center fs-3">Skills</p>
 
-    <div style="text-align: center; margin-bottom: 16px">
-      <p>
-        My name is Kaewtar. &nbsp; Hi ! Nice to meet you all. <br />
-        I am kaewtar.
-      </p>
-    </div>
+    <div style="max-width: 700px" class="mx-auto px-3">
+      <div class="d-flex border mb-3 shadow-sm rounded-5">
+        <div class="rounded-5">
+          <img
+            src="coding.jpg"
+            width="150px"
+            height="150px"
+            style="object-fit: cover"
+            class="rounded-5 d-none d-sm-block"
+          />
+        </div>
+        <div class="p-4">
+          <p class="fw-semibold fs-5">Programming</p>
+          <span class="text-muted">
+            I can coding by using c++ , HTML and CSS.
+          </span>
+        </div>
+      </div>
 
-    <h3>Skills</h3>
-    <div class="skill-container">
-      <h1 class="skill-header">Programming</h1>
-      <p>I can code c++.</p>
-    </div>
+      <div class="d-flex border mb-3 shadow-sm rounded-5">
+        <div class="p-4">
+          <p class="fw-semibold fs-5">Management</p>
+          <span class="text-muted">
+            This help me to govern both tasks and people. I have to communicates
+            clearly and support a team.
+          </span>
+        </div>
+        <div class="rounded-5">
+          <img
+            src="manage.jpg"
+            width="150px"
+            height="150px"
+            style="object-fit: cover"
+            class="rounded-5 d-none d-sm-block"
+          />
+        </div>
+      </div>
 
-    <div class="skill-container">
-      <h1 class="skill-header">Cooking</h1>
-      <p>I can cook Thai Food.</p>
+      <div class="d-flex border mb-3 shadow-sm rounded-5">
+        <div class="rounded-5">
+          <img
+            src="eng.jpg"
+            width="150px"
+            height="150px"
+            style="object-fit: cover"
+            class="rounded-5 d-none d-sm-block"
+          />
+        </div>
+        <div class="p-4">
+          <p class="fw-semibold fs-5">Engineering & Technical</p>
+          <span class="text-muted">
+            I can use program for Engineering.for example, AutoCAD , GoGo
+            plugin,Onshape and SketchUp.
+          </span>
+        </div>
+      </div>
     </div>
   </body>
 </html>
