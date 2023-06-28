@@ -28,3 +28,33 @@ h3 {
   padding-left: 16px;
   margin-bottom: 8px;
 }
+
+
+/*<div class="d-flex border mb-3 shadow-sm my-rounded-all">
+        <div class="p-4">
+          <p class="fw-semibold fs-5">ENG Photoclub</p>
+          <span class="text-muted">
+            This is my first time taking photo the ENG's event.
+          </span>
+        </div>
+        <div class="my-rounded-right">
+          <img
+            src="manage.jpg"
+            width="150px"
+            height="150px"
+            style="object-fit: cover"
+            class="my-rounded-right d-none d-sm-block"
+          />
+        </div>
+      </div>
+      
+      <div class="my-rounded-right">
+          <img
+            src="blood.jpg"
+            width="150px"
+            height="150px"
+            style="object-fit: cover"
+            class="my-rounded-right d-none d-sm-block"
+          />
+        </div>
+      </div>
