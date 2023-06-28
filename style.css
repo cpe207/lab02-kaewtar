@@ -15,6 +15,9 @@ h3 {
   color: darkslategray;
   font-style: italic;
 }
+.f {
+  font-family: "Caveat", cursive;
+}
 
 .skill-header {
   text-align: left;
@@ -37,13 +40,20 @@ h3 {
 
 .navigation a {
   text-decoration: none;
-  color: #27374d;
+  color: #3b4942;
   padding: 6px 15px;
   border-radius: 20px;
   margin: 0 10px;
   font-weight: 600;
 }
 .navigation a:hover {
-  background-color: #27374d;
+  background-color: #3b4942;
   color: #fff;
+}
+
+body {
+  background-image: url(https://www.teahub.io/photos/full/185-1854442_nature.jpg);
+  background-position: bottom;
+  background-attachment: fixed;
+  background-size: cover;
 }
